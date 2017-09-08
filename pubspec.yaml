@@ -1,0 +1,20 @@
+name: solarium_tools
+description: A sample command-line application.
+version: 0.0.1
+#homepage: https://www.example.com
+#author: Michael <email@example.com>
+
+environment:
+  sdk: '>=1.20.1 <2.0.0'
+
+dependencies:
+  shelf_static: ">=0.2.0 <0.3.0"
+  shelf_cors: ">=0.2.0 <0.3.0"
+  args: ">=0.12.0+1 <0.14.0"
+  path: "^1.4.2"
+
+dev_dependencies:
+  test: ^0.12.0
+
+executables:
+  solarium:
